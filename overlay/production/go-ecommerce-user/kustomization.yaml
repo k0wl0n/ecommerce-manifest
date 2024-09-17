@@ -7,8 +7,8 @@ resources:
 namespace: production
 images:
 - name: kowlon/go-echo
-  newName: 490004610217.dkr.ecr.ap-southeast-1.amazonaws.com/ecommerce_user
-  newTag: prod-v.0.0.1
+  newName: 490004610217.dkr.ecr.ap-southeast-1.amazonaws.com/go-ecommerce-user
+  newTag: prod-v.0.0.2
 patches:
 - path: env-patch.yaml
   target:
